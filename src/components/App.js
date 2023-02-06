@@ -32,7 +32,7 @@ class App extends React.Component {
     this.handleChange =  this.handleChange.bind(this)
   }
   render() {
-    this.state.even === true ? console.log(Odd is unmounted) : console.log(Even is unmounted)
+    this.state.even === true ? console.log("Odd is unmounted") : console.log("Even is unmounted")
     return (
       <div id="main">
         {this.state.even ? <Even /> : <Odd />}
