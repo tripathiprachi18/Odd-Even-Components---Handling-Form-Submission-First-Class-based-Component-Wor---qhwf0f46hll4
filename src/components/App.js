@@ -5,9 +5,9 @@ class Odd extends React.Component {
  componentWillUnmount() {
     console.log('Odd is unmounted')
   }
- componentDidMount(){
-  console.log('Odd is mounted')
- }
+//  componentDidMount(){
+//   console.log('Odd is mounted')
+//  }
   render() {
     return (
       <div id="odd">
